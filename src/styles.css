@@ -21,6 +21,7 @@ main > h1 {
 }
 
 div.image {
+  margin:auto;
   width: 100%;
   height: auto;
 }

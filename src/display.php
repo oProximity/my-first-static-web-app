@@ -15,7 +15,7 @@ $sql = 'SELECT * FROM Students';
 $result = mysqli_query($conn, $sql);
 
 while($row = mysqli_fetch_assoc($result)) {
-	echo"database says {$row} <br>";
+	echo "database says {$row["Grade"]} <br>";
 }
 
 mysqli_close($conn);

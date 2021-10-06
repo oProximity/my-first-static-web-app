@@ -21,3 +21,4 @@ while($row = mysql_fetch_assoc($result)) {
 mysql_close($conn);
 
 ?>
+<h1>hello</h1>
